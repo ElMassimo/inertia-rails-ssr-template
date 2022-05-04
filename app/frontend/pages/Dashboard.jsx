@@ -10,6 +10,9 @@ export default function Dashboard({name}) {
         (It also uses the <a className="font-bold hover:underline" href="https://github.com/tailwindlabs/tailwindcss" target="_blank">Tailwind Play CDN</a> for some simple styling).
       </div>
       <div className="my-3">
+        It's also running SSR powered by Vite.
+      </div>
+      <div className="my-3">
         Feel free to fork this and use it for your next spike, mvp, or entire application. If you'd like to take a look around to see how everything is working,
         I'd recommend checking out the following files:
 

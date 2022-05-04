@@ -19,3 +19,14 @@ npm install
 foreman -f Procfile.dev
 ```
 
+To create an SSR build:
+
+```
+bin/vite build -- --ssr
+```
+
+To start the SSR node.js server:
+
+```
+node public/vite-ssr/ssr.js
+```
