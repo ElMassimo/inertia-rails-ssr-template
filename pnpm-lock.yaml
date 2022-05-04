@@ -10,7 +10,7 @@ specifiers:
   react: ^18.0.0
   react-dom: ^18.0.0
   vite: ^2.9.5
-  vite-plugin-ruby: ^3.0.9
+  vite-plugin-ruby: ^3.0.10
 
 dependencies:
   '@inertiajs/server': 0.1.0_@inertiajs+inertia@0.11.0
@@ -24,7 +24,7 @@ devDependencies:
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
   vite: 2.9.7
-  vite-plugin-ruby: 3.0.9_vite@2.9.7
+  vite-plugin-ruby: 3.0.10_vite@2.9.7
 
 packages:
 
@@ -1068,8 +1068,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /vite-plugin-ruby/3.0.9_vite@2.9.7:
-    resolution: {integrity: sha512-MHAilPn1zLz5KL3hQodTl5PbeuNM5mxW1lXahr40lAhT4S3G7gPI5qSiCDq0MxmaPo/zrLoHYJj9u5xCAwNjmw==}
+  /vite-plugin-ruby/3.0.10_vite@2.9.7:
+    resolution: {integrity: sha512-6xOZT1F1VWl98I+TydOfqxyi6LH7MS01V+vnEl2WQm4OoK4Ugs8yAlp+do26BQBEvrr1E6ndlOtFaYOYuobsrA==}
     peerDependencies:
       vite: '>=2.5.0'
     dependencies:

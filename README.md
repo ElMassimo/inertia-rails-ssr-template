@@ -22,7 +22,7 @@ foreman -f Procfile.dev
 To create an SSR build:
 
 ```
-bin/vite build -- --ssr
+bin/vite build --force -- --ssr
 ```
 
 To start the SSR node.js server:
