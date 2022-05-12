@@ -1,4 +1,4 @@
-# Inertia on Rails Template
+# Inertia on Rails with SSR enabled
 
 This is a minimal installation of [Ruby on Rails](https://github.com/rails/rails), [Vite](https://github.com/vitejs/vite), and [InertiaJS](https://github.com/inertiajs/inertia-rails). (It also uses the [Tailwind Play CDN](https://github.com/tailwindlabs/tailwindcss) for some simple styling).
 Feel free to fork this and use it for your next spike, mvp, or entire application. If you'd like to take a look around to see how everything is working, I'd recommend checking out the following files:
@@ -22,11 +22,11 @@ foreman -f Procfile.dev
 To create an SSR build:
 
 ```
-bin/vite build --force -- --ssr
+bin/vite build --ssr
 ```
 
 To start the SSR node.js server:
 
 ```
-node public/vite-ssr/ssr.js
+bin/vite ssr
 ```
