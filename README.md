@@ -30,3 +30,5 @@ To start the SSR node.js server:
 ```
 bin/vite ssr
 ```
+
+For an example on how to enable SSR for an existing app, [see this example in PingCRM](https://github.com/ElMassimo/pingcrm-vite/pull/5).
