@@ -2,7 +2,7 @@ import ReactDOMServer from 'react-dom/server'
 import { createInertiaApp } from '@inertiajs/inertia-react'
 import cjsCreateServer from '@inertiajs/server'
 
-const pages = import.meta.globEagerDefault('../pages/*.jsx')
+const pages = import.meta.glob('../pages/*.jsx', { import: 'default', eager: true });
 
 // Unwrap the CJS module in @inertiajs/server.
 const createServer = typeof cjsCreateServer === 'function' ? cjsCreateServer : cjsCreateServer.default
